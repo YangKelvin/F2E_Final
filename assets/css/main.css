@@ -3099,7 +3099,7 @@
 		.wrapper.style3 {
 			background-color: #000;
 			color: #bfbfbf;
-			background-image: url(../../images/bg.jpg);
+			background-image: url(../../images/background.png);
 			background-size: cover;
 			background-attachment: fixed;
 			background-position: center;
@@ -4020,6 +4020,10 @@
 			color: #ffffff;
 		}
 
+		.banner h3 { 
+			font-size:50px;
+		}
+		
 		.banner blockquote {
 			border-left-color: rgba(255, 255, 255, 0.25);
 		}
