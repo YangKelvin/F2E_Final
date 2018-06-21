@@ -1,0 +1,498 @@
+/*#region course-style1*/
+.wrapper.course-style1 {
+    background-color: #000;
+    color: #bfbfbf;
+    background-image: url(../../images/slide1.jpg);
+    /* background-size: 300px 100px; */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+    .wrapper.course-style1 input, .wrapper.course-style1 select, .wrapper.course-style1 textarea {
+        color: #ffffff;
+    }
+
+    .wrapper.course-style1 a {
+        color: #8a4680;
+    }
+
+    .wrapper.course-style1 strong, .wrapper.course-style1 b {
+        color: #ffffff;
+    }
+
+    .wrapper.course-style1 h1, .wrapper.course-style1 h2, .wrapper.course-style1 h3, .wrapper.course-style1 h4, .wrapper.course-style1 h5, .wrapper.course-style1 h6 {
+        color: #ffffff;
+    }
+
+    .wrapper.course-style1 blockquote {
+        border-left-color: rgba(255, 255, 255, 0.25);
+    }
+
+    .wrapper.course-style1 code {
+        background: rgba(255, 255, 255, 0.075);
+        border-color: rgba(255, 255, 255, 0.25);
+    }
+
+    .wrapper.course-style1 hr {
+        border-bottom-color: rgba(255, 255, 255, 0.25);
+    }
+
+    .wrapper.course-style1 .box {
+        border-color: rgba(255, 255, 255, 0.25);
+    }
+
+    .wrapper.course-style1 input[type="submit"],
+    .wrapper.course-style1 input[type="reset"],
+    .wrapper.course-style1 input[type="button"],
+    .wrapper.course-style1 button,
+    .wrapper.course-style1 .button {
+        background-color: #f2f2f2;
+        color: #000 !important;
+    }
+
+        .wrapper.course-style1 input[type="submit"]:hover,
+        .wrapper.course-style1 input[type="reset"]:hover,
+        .wrapper.course-style1 input[type="button"]:hover,
+        .wrapper.course-style1 button:hover,
+        .wrapper.course-style1 .button:hover {
+            background-color: white;
+        }
+
+        .wrapper.course-style1 input[type="submit"]:active,
+        .wrapper.course-style1 input[type="reset"]:active,
+        .wrapper.course-style1 input[type="button"]:active,
+        .wrapper.course-style1 button:active,
+        .wrapper.course-style1 .button:active {
+            background-color: #e5e5e5;
+        }
+
+        .wrapper.course-style1 input[type="submit"].alt,
+        .wrapper.course-style1 input[type="reset"].alt,
+        .wrapper.course-style1 input[type="button"].alt,
+        .wrapper.course-style1 button.alt,
+        .wrapper.course-style1 .button.alt {
+            background-color: transparent;
+            box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+            color: #ffffff !important;
+        }
+
+            .wrapper.course-style1 input[type="submit"].alt:hover,
+            .wrapper.course-style1 input[type="reset"].alt:hover,
+            .wrapper.course-style1 input[type="button"].alt:hover,
+            .wrapper.course-style1 button.alt:hover,
+            .wrapper.course-style1 .button.alt:hover {
+                background-color: rgba(255, 255, 255, 0.075);
+            }
+
+            .wrapper.course-style1 input[type="submit"].alt:active,
+            .wrapper.course-style1 input[type="reset"].alt:active,
+            .wrapper.course-style1 input[type="button"].alt:active,
+            .wrapper.course-style1 button.alt:active,
+            .wrapper.course-style1 .button.alt:active {
+                background-color: rgba(255, 255, 255, 0.2);
+            }
+
+            .wrapper.course-style1 input[type="submit"].alt.icon:before,
+            .wrapper.course-style1 input[type="reset"].alt.icon:before,
+            .wrapper.course-style1 input[type="button"].alt.icon:before,
+            .wrapper.course-style1 button.alt.icon:before,
+            .wrapper.course-style1 .button.alt.icon:before {
+                color: #999999;
+            }
+
+        .wrapper.course-style1 input[type="submit"].special,
+        .wrapper.course-style1 input[type="reset"].special,
+        .wrapper.course-style1 input[type="button"].special,
+        .wrapper.course-style1 button.special,
+        .wrapper.course-style1 .button.special {
+            background-color: #8a4680;
+            color: #ffffff !important;
+        }
+
+            .wrapper.course-style1 input[type="submit"].special:hover,
+            .wrapper.course-style1 input[type="reset"].special:hover,
+            .wrapper.course-style1 input[type="button"].special:hover,
+            .wrapper.course-style1 button.special:hover,
+            .wrapper.course-style1 .button.special:hover {
+                background-color: #9b4f90;
+            }
+
+            .wrapper.course-style1 input[type="submit"].special:active,
+            .wrapper.course-style1 input[type="reset"].special:active,
+            .wrapper.course-style1 input[type="button"].special:active,
+            .wrapper.course-style1 button.special:active,
+            .wrapper.course-style1 .button.special:active {
+                background-color: #793d70;
+            }
+
+    .wrapper.course-style1 label {
+        color: #ffffff;
+    }
+
+    .wrapper.course-style1 input[type="text"],
+    .wrapper.course-style1 input[type="password"],
+    .wrapper.course-style1 input[type="email"],
+    .wrapper.course-style1 select,
+    .wrapper.course-style1 textarea {
+        background: rgba(255, 255, 255, 0.075);
+        border-color: rgba(255, 255, 255, 0.25);
+    }
+
+        .wrapper.course-style1 input[type="text"]:focus,
+        .wrapper.course-style1 input[type="password"]:focus,
+        .wrapper.course-style1 input[type="email"]:focus,
+        .wrapper.course-style1 select:focus,
+        .wrapper.course-style1 textarea:focus {
+            border-color: #8a4680;
+            box-shadow: 0 0 0 1px #8a4680;
+        }
+
+    .wrapper.course-style1 .select-wrapper:before {
+        color: rgba(255, 255, 255, 0.25);
+    }
+
+    .wrapper.course-style1 input[type="checkbox"] + label,
+    .wrapper.course-style1 input[type="radio"] + label {
+        color: #bfbfbf;
+    }
+
+        .wrapper.course-style1 input[type="checkbox"] + label:before,
+        .wrapper.course-style1 input[type="radio"] + label:before {
+            background: rgba(255, 255, 255, 0.075);
+            border-color: rgba(255, 255, 255, 0.25);
+        }
+
+    .wrapper.course-style1 input[type="checkbox"]:checked + label:before,
+    .wrapper.course-style1 input[type="radio"]:checked + label:before {
+        background-color: #8a4680;
+        border-color: #8a4680;
+        color: #ffffff;
+    }
+
+    .wrapper.course-style1 input[type="checkbox"]:focus + label:before,
+    .wrapper.course-style1 input[type="radio"]:focus + label:before {
+        border-color: #8a4680;
+        box-shadow: 0 0 0 1px #8a4680;
+    }
+
+    .wrapper.course-style1 ::-webkit-input-placeholder {
+        color: #999999 !important;
+    }
+
+    .wrapper.course-style1 :-moz-placeholder {
+        color: #999999 !important;
+    }
+
+    .wrapper.course-style1 ::-moz-placeholder {
+        color: #999999 !important;
+    }
+
+    .wrapper.course-style1 :-ms-input-placeholder {
+        color: #999999 !important;
+    }
+
+    .wrapper.course-style1 .formerize-placeholder {
+        color: #999999 !important;
+    }
+
+    .wrapper.course-style1 ul.alt li {
+        border-top-color: rgba(255, 255, 255, 0.25);
+    }
+
+    .wrapper.course-style1 header p {
+        color: #999999;
+    }
+
+    .wrapper.course-style1 table tbody tr {
+        border-color: rgba(255, 255, 255, 0.25);
+    }
+
+        .wrapper.course-style1 table tbody tr:nth-child(2n + 1) {
+            background-color: rgba(255, 255, 255, 0.075);
+        }
+
+    .wrapper.course-style1 table th {
+        color: #ffffff;
+    }
+
+    .wrapper.course-style1 table thead {
+        border-bottom-color: rgba(255, 255, 255, 0.25);
+    }
+
+    .wrapper.course-style1 table tfoot {
+        border-top-color: rgba(255, 255, 255, 0.25);
+    }
+
+    .wrapper.course-style1 table.alt tbody tr td {
+        border-color: rgba(255, 255, 255, 0.25);
+    }
+
+    .wrapper.course-style1 .inner {
+        position: relative;
+        z-index: 2;
+    }
+
+    .wrapper.course-style1 p {
+        text-transform: uppercase;
+        font-size: .75rem;
+        font-weight: 300;
+        margin: 0 0 .5rem 0;
+        padding: 0 0 1rem 0;
+        letter-spacing: .25rem;
+    }
+
+        .wrapper.course-style1 p:after {
+            content: '';
+            position: absolute;
+            margin: auto;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 50%;
+            height: 1px;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+
+    .wrapper.course-style1:before {
+        -moz-transition: opacity 3s ease;
+        -webkit-transition: opacity 3s ease;
+        -ms-transition: opacity 3s ease;
+        transition: opacity 3s ease;
+        -moz-transition-delay: 1.25s;
+        -webkit-transition-delay: 1.25s;
+        -ms-transition-delay: 1.25s;
+        transition-delay: 1.25s;
+        content: '';
+        display: block;
+        background-color: rgba(0, 0, 0, 0.95);
+        height: 100%;
+        left: 0;
+        opacity: 0.75;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+/*#endregion course-style1*/
+    
+/*#region course-course-style2*/
+.wrapper.course-style2 {
+    background-color: #f2f2f2;
+    color: #a6a6a6;
+    padding-top: 0;
+}
+
+    .wrapper.course-style2 input, .wrapper.course-style2 select, .wrapper.course-style2 textarea {
+        color: #000;
+    }
+
+    .wrapper.course-style2 a {
+        color: #8a4680;
+    }
+
+    .wrapper.course-style2 strong, .wrapper.course-style2 b {
+        color: #000;
+    }
+
+    .wrapper.course-style2 h1, .wrapper.course-style2 h2, .wrapper.course-style2 h3, .wrapper.course-style2 h4, .wrapper.course-style2 h5, .wrapper.course-style2 h6 {
+        color: #000;
+    }
+
+    .wrapper.course-style2 blockquote {
+        border-left-color: rgba(0, 0, 0, 0.15);
+    }
+
+    .wrapper.course-style2 code {
+        background: rgba(0, 0, 0, 0.075);
+        border-color: rgba(0, 0, 0, 0.15);
+    }
+
+    .wrapper.course-style2 hr {
+        border-bottom-color: rgba(0, 0, 0, 0.15);
+    }
+
+    .wrapper.course-style2 .box {
+        border-color: rgba(0, 0, 0, 0.15);
+    }
+
+    .wrapper.course-style2 input[type="submit"],
+    .wrapper.course-style2 input[type="reset"],
+    .wrapper.course-style2 input[type="button"],
+    .wrapper.course-style2 button,
+    .wrapper.course-style2 .button {
+        background-color: #000;
+        color: #f2f2f2 !important;
+    }
+
+        .wrapper.course-style2 input[type="submit"].alt,
+        .wrapper.course-style2 input[type="reset"].alt,
+        .wrapper.course-style2 input[type="button"].alt,
+        .wrapper.course-style2 button.alt,
+        .wrapper.course-style2 .button.alt {
+            background-color: transparent;
+            box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);
+            color: #000 !important;
+        }
+
+            .wrapper.course-style2 input[type="submit"].alt:hover,
+            .wrapper.course-style2 input[type="reset"].alt:hover,
+            .wrapper.course-style2 input[type="button"].alt:hover,
+            .wrapper.course-style2 button.alt:hover,
+            .wrapper.course-style2 .button.alt:hover {
+                background-color: rgba(0, 0, 0, 0.075);
+            }
+
+            .wrapper.course-style2 input[type="submit"].alt:active,
+            .wrapper.course-style2 input[type="reset"].alt:active,
+            .wrapper.course-style2 input[type="button"].alt:active,
+            .wrapper.course-style2 button.alt:active,
+            .wrapper.course-style2 .button.alt:active {
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+
+            .wrapper.course-style2 input[type="submit"].alt.icon:before,
+            .wrapper.course-style2 input[type="reset"].alt.icon:before,
+            .wrapper.course-style2 input[type="button"].alt.icon:before,
+            .wrapper.course-style2 button.alt.icon:before,
+            .wrapper.course-style2 .button.alt.icon:before {
+                color: #999999;
+            }
+
+        .wrapper.course-style2 input[type="submit"].special,
+        .wrapper.course-style2 input[type="reset"].special,
+        .wrapper.course-style2 input[type="button"].special,
+        .wrapper.course-style2 button.special,
+        .wrapper.course-style2 .button.special {
+            background-color: #8a4680;
+            color: #ffffff !important;
+        }
+
+            .wrapper.course-style2 input[type="submit"].special:hover,
+            .wrapper.course-style2 input[type="reset"].special:hover,
+            .wrapper.course-style2 input[type="button"].special:hover,
+            .wrapper.course-style2 button.special:hover,
+            .wrapper.course-style2 .button.special:hover {
+                background-color: #9b4f90;
+            }
+
+            .wrapper.course-style2 input[type="submit"].special:active,
+            .wrapper.course-style2 input[type="reset"].special:active,
+            .wrapper.course-style2 input[type="button"].special:active,
+            .wrapper.course-style2 button.special:active,
+            .wrapper.course-style2 .button.special:active {
+                background-color: #793d70;
+            }
+
+    .wrapper.course-style2 label {
+        color: #000;
+    }
+
+    .wrapper.course-style2 input[type="text"],
+    .wrapper.course-style2 input[type="password"],
+    .wrapper.course-style2 input[type="email"],
+    .wrapper.course-style2 select,
+    .wrapper.course-style2 textarea {
+        background: rgba(0, 0, 0, 0.075);
+        border-color: rgba(0, 0, 0, 0.15);
+    }
+
+        .wrapper.course-style2 input[type="text"]:focus,
+        .wrapper.course-style2 input[type="password"]:focus,
+        .wrapper.course-style2 input[type="email"]:focus,
+        .wrapper.course-style2 select:focus,
+        .wrapper.course-style2 textarea:focus {
+            border-color: #8a4680;
+            box-shadow: 0 0 0 1px #8a4680;
+        }
+
+    .wrapper.course-style2 .select-wrapper:before {
+        color: rgba(0, 0, 0, 0.15);
+    }
+
+    .wrapper.course-style2 input[type="checkbox"] + label,
+    .wrapper.course-style2 input[type="radio"] + label {
+        color: #a6a6a6;
+    }
+
+        .wrapper.course-style2 input[type="checkbox"] + label:before,
+        .wrapper.course-style2 input[type="radio"] + label:before {
+            background: rgba(0, 0, 0, 0.075);
+            border-color: rgba(0, 0, 0, 0.15);
+        }
+
+    .wrapper.course-style2 input[type="checkbox"]:checked + label:before,
+    .wrapper.course-style2 input[type="radio"]:checked + label:before {
+        background-color: #8a4680;
+        border-color: #8a4680;
+        color: #ffffff;
+    }
+
+    .wrapper.course-style2 input[type="checkbox"]:focus + label:before,
+    .wrapper.course-style2 input[type="radio"]:focus + label:before {
+        border-color: #8a4680;
+        box-shadow: 0 0 0 1px #8a4680;
+    }
+
+    .wrapper.course-style2 ::-webkit-input-placeholder {
+        color: #999999 !important;
+    }
+
+    .wrapper.course-style2 :-moz-placeholder {
+        color: #999999 !important;
+    }
+
+    .wrapper.course-style2 ::-moz-placeholder {
+        color: #999999 !important;
+    }
+
+    .wrapper.course-style2 :-ms-input-placeholder {
+        color: #999999 !important;
+    }
+
+    .wrapper.course-style2 .formerize-placeholder {
+        color: #999999 !important;
+    }
+
+    .wrapper.course-style2 ul.alt li {
+        border-top-color: rgba(0, 0, 0, 0.15);
+    }
+
+    .wrapper.course-style2 header p {
+        color: #999999;
+    }
+
+    .wrapper.course-style2 table tbody tr {
+        border-color: rgba(0, 0, 0, 0.15);
+    }
+
+        .wrapper.course-style2 table tbody tr:nth-child(2n + 1) {
+            background-color: rgba(0, 0, 0, 0.075);
+        }
+
+    .wrapper.course-style2 table th {
+        color: #000;
+    }
+
+    .wrapper.course-style2 table thead {
+        border-bottom-color: rgba(0, 0, 0, 0.15);
+    }
+
+    .wrapper.course-style2 table tfoot {
+        border-top-color: rgba(0, 0, 0, 0.15);
+    }
+
+    .wrapper.course-style2 table.alt tbody tr td {
+        border-color: rgba(0, 0, 0, 0.15);
+    }
+/*#endregion course-style2*/
+
+
+#footer .copyright {
+    color: #bbb;
+    font-size: 0.9rem;
+    margin: 0 0 2rem 0;
+    padding: 0;
+    text-align: center;
+}
