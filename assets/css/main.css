@@ -3111,9 +3111,10 @@
 			}
 
 			.wrapper.style3 a {
-				color: #8a4680;
+				color: while;
+				margin:0px 5%;
 			}
-
+			
 			.wrapper.style3 strong, .wrapper.style3 b {
 				color: #ffffff;
 			}
@@ -4258,11 +4259,18 @@
 			.banner > article p {
 				margin-bottom: 1rem;
 			}
+			
+			.banner .smallsize {
+				font-size:8px;
+			}
 
 			.banner > article h2 {
 				font-size: 4em;
 			}
-
+				
+			.banner > article h3 {
+				font-size: 13px;
+			}
 		}
 
 		body.is-mobile .banner > article {
