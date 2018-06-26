@@ -496,3 +496,35 @@
     padding: 0;
     text-align: center;
 }
+
+.testh2 {
+    font-family: BiauKai;
+    color: #793d70;
+}
+
+/* add by 105590045 */
+#footer .left {
+    width: 50%;
+    float:left;
+    /* height:280px; */
+    text-align:left;
+    /* line-height:280px; */
+    font-size:8px;
+    color:#ffffff;
+    font-family: LiHei Pro Medium;
+    /* font-family:LiHei Pro Medium, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
+    /* font-weight:bold; */
+    /* background-color:#cecece; */
+}
+#footer .right {
+    width:50%;
+    height:280px;
+    text-align:center;
+    line-height:280px;
+    font-size:15px;
+    color:#f9c81e;
+    font-weight:bold;
+    /* background-color:#fffaf3; */
+    float:left;
+}
+/* ---------------- */
