@@ -532,3 +532,27 @@
     float:left;
 }
 /* ---------------- */
+
+/* animate */
+.animate1{
+    opacity: 0;
+  }
+
+  .animate1.fadeInUp{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+  }
+
+.animate_delay0 {
+    animation-delay: .1s;
+}
+
+.animate_delay1 {
+  animation-delay: .3s;
+}
+
+.animate_delay2 {
+  animation-delay: .6s;
+}
+/* ---------------- */
