@@ -518,12 +518,13 @@
 }
 #footer .right {
     width:50%;
-    height:280px;
-    text-align:center;
-    line-height:280px;
-    font-size:15px;
-    color:#f9c81e;
+    /* height:280px; */
+    text-align:left;
+    /* line-height:280px; */
+    font-size:8px;
+    color:#ffffff;
     font-weight:bold;
+    font-family: LiHei Pro Medium;
     /* background-color:#fffaf3; */
     float:left;
 }
