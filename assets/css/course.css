@@ -497,9 +497,12 @@
     text-align: center;
 }
 
-.testh2 {
-    font-family: BiauKai;
-    color: #793d70;
+.inner-button{
+    margin-top: -40px;
+}
+
+.content-button{
+    margin-top: 10px;
 }
 
 /* add by 105590045 */
