@@ -54,7 +54,7 @@ html{
         }
 .image.fit img {
 	/* width: 100%; */
-	width: auto;
+	width: 25%;
 	margin: auto;
 	padding-top: 30px;
 }
