@@ -1,3 +1,6 @@
+html{
+	font-family: Microsoft JhengHei !important;
+} 
 #footer {
 		padding: 4rem 0 2rem 0 ;
 		background: #000;
@@ -58,7 +61,7 @@
 .box .content {
 	padding: 2rem;
 }
-section#two div.content p
+div.content p
 {
-
+	font-size: 14px !important;
 }
