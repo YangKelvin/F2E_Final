@@ -1,5 +1,5 @@
-html{
-	font-family: Microsoft JhengHei !important;
+body{
+	font-family: Microsoft JhengHei;
 }
 #footer{
 	background-color: #000;
@@ -9,6 +9,16 @@ html{
     background-attachment: fixed !important;
 	background-position: center !important;
 	position: relative;
+}
+tr {
+	color: #000;
+}
+.box a {
+	color: black !important;
+}
+		
+.box a:hover {
+	color: rgba(144, 144, 144, 1) !important;
 }
 #footer:before{
     transition: opacity 3s ease;
@@ -46,18 +56,13 @@ html{
 	width: 45%
 }
 
-		@media screen and (max-width: 736px) {
-
-			#footer {
-				padding: 3rem 0 1rem 0 ;
-			}
-			
-			#footer p {
-				font-size: 9px;
-			}
-        }
-a{
-    text-decoration: none;
+.box a {
+	color: black !important;
+	text-decoration: none;
+}
+		
+.box a:hover {
+	color: rgba(144, 144, 144, 1) !important;
 }
 table th,tr{
     text-align: center;

@@ -1,6 +1,9 @@
 /*#region course-style1*/
-html{
-	font-family: Microsoft JhengHei !important;
+body{
+	font-family: Microsoft JhengHei;
+}
+.box p{
+	color: #000;
 }
 .wrapper.course-style1 {
     background-color: #000;
