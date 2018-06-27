@@ -1,0 +1,107 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	font-family: Microsoft JhengHei;
+}
+
+
+#footer:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+#footer .footerLeft {
+	float: left;
+	text-align: left;
+	color: white;
+	width: 45%
+}
+		
+#footer .footerRight {
+	float: right;
+	color: white;
+	width: 45%
+}
+
+
+@media screen and (min-width: 1281px) {
+
+	.wrapper > .inner {
+		width: 95rem;
+	}
+	
+	}
+	
+	@media screen and (max-width: 980px) {
+		
+				
+		.style3 a {
+			height:60px;
+		}
+				
+		.style3 .floatLeft {
+			float: left;
+		}
+				
+		.style3 .floatRight {
+			float: Right;
+		}
+				
+		.style3 h2:after {
+			content:"";
+			display:block;
+			clear:both;
+		}
+	
+		.banner .smaller p{
+			font-size:8px;
+		}
+		
+		.banner .smaller h3{
+			font-size:30px;
+		}
+	
+	}
+	
+	@media screen and (max-width: 736px) {
+	
+				
+		.style3 a {
+			font-size: 15px;
+			height:30px;
+		}
+				
+		.style3 .floatLeft {
+			float: left;
+		}
+				
+		.style3 .floatRight {
+			float: Right;
+		}
+				
+		.style3 h2:after {
+			content:"";
+			display:block;
+			clear:both;
+		}
+		
+		.banner > article h3 {
+			font-size: 13px;
+		}
+				
+		.banner .smaller p{
+			font-size:6px;
+		}
+				
+		.banner .smaller h3{
+			font-size:24px;
+		}
+		
+		.banner .smallsize {
+			font-size:8px;
+		}
+		
+		#footer p {
+			font-size: 9px;
+		}
+				
+	}
