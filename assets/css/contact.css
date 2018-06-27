@@ -1,0 +1,172 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	font-family: Microsoft JhengHei;
+}
+
+#footer{
+	background-color: #000;
+
+	background-image: url(../../images/bg.jpg) !important;
+	background-size: cover !important;
+    background-attachment: fixed !important;
+	background-position: center !important;
+	position: relative;
+}
+#footer:before{
+    transition: opacity 3s ease;
+    transition-delay: 1.25s;
+    content: '';
+    display: block;
+    background-color: rgba(0, 0, 0, 0.95);
+    height: 100%;
+    left: 0;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    width: 100%;
+	z-index: 1;
+}
+#footer:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+#footer .container{
+	z-index: 2;
+	position: relative;
+}
+#footer .footerLeft {
+	float: left;
+	text-align: left;
+	color: white;
+	width: 45%
+}
+		
+#footer .footerRight {
+	float: right;
+	color: white;
+	width: 45%
+}
+
+.style2 .content ul {
+	height:70%;
+}
+
+.nameEdit, .message {
+	float: left;
+}
+
+ul .username-chat {
+    margin-right: 10px;
+}
+
+.style2 li {
+	color: black;
+}
+
+.center {
+	text-align: center;
+}
+
+.heightAuto {
+	height: auto !important
+}
+	
+@media screen and (min-width: 1281px) {
+	
+	.style2 .content {
+		height: 750px;
+	}
+	
+	.nameEdit {
+		width: 20% !important;
+	}
+
+	.messageEdit {
+		width: 80% !important;
+	}
+	
+	.picture {
+		margin-bottom: 100px;
+		margin-left: 100px;
+	}
+
+	.map {
+		margin-left: 50px;
+		width: 50%;
+		height: 400px;
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	
+	.style2 .content {
+		height: 700px;
+	}
+	
+	.nameEdit {
+		width: 25% !important;
+	}
+
+	.messageEdit {
+		width: 75% !important;
+	}
+	
+	.picture {
+		margin-bottom: 100px;
+		margin-left: 30px;
+	}
+
+	.map {
+		margin-left: 50px;
+		width: 50%;
+		height: 400px;
+		display: inline-block;
+	}
+	
+}
+
+@media screen and (max-width: 980px) {
+	
+	.picture {
+		width: 100%;
+		margin:auto !important;
+	}
+
+	.map {
+		width: 100%;
+		margin:auto !important;
+		height: 400px;
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	.style2 .content {
+		height: 600px;
+	}
+	
+	.nameEdit {
+		width: 30% !important;
+		font-size: 14px;
+	}
+
+	.messageEdit {
+		width: 70% !important;
+		font-size: 14px;
+	}
+	
+	.picture {
+		width: 100%;
+		margin:auto !important;
+	}
+
+	.map {
+		width: 100%;
+		margin:auto !important;
+		height: 400px;
+		display: inline-block;
+	}
+	
+}

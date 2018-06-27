@@ -1,0 +1,61 @@
+html{
+	font-family: Microsoft JhengHei !important;
+} 
+#footer{
+	background-color: #000;
+
+	background-image: url(../../images/bg.jpg) !important;
+	background-size: cover !important;
+    background-attachment: fixed !important;
+	background-position: center !important;
+	position: relative;
+}
+#footer:before{
+    transition: opacity 3s ease;
+    transition-delay: 1.25s;
+    content: '';
+    display: block;
+    background-color: rgba(0, 0, 0, 0.95);
+    height: 100%;
+    left: 0;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    width: 100%;
+	z-index: 1;
+}
+#footer:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+#footer .container{
+	z-index: 2;
+	position: relative;
+}
+#footer .footerLeft {
+	float: left;
+	text-align: left;
+	color: white;
+	width: 45%
+}
+		
+#footer .footerRight {
+	float: right;
+	color: white;
+	width: 45%
+}
+
+.image.fit img {
+	/* width: 100%; */
+	width: 25%;
+	margin: auto;
+	padding-top: 30px;
+}
+.box .content {
+	padding: 2rem;
+}
+div.content p
+{
+	font-size: 14px !important;
+}
