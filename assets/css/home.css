@@ -2,22 +2,35 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	font-family: Microsoft JhengHei;
 }
 
+a {
+	text-decoration: none !important;
+}
+
+.box .content td {
+	padding: 0px, 1px !important;
+}
+
+.box .content .date {
+	width: 20%;
+	text-align: center;
+}
+		
+.box .content a {
+	color: black !important;
+}
+		
+.box .content a:hover {
+	color: rgba(144, 144, 144, 1) !important;
+}
+
 .wrapper.style3 a {
 	color: white !important;
 	margin:0px 5%;
 }
 
-
-tr a {
-    text-decoration: none !important;
-    color: black !important;
+.banner h3 { 
+	font-size:50px;
 }
-
-tr a:hover {
-	color: rgba(144, 144, 144, 1) !important;
-}
-
-
 
 #footer:after {
 	content:"";
@@ -38,8 +51,6 @@ tr a:hover {
 	width: 45%
 }
 
-
-
 @media screen and (min-width: 1281px) {
 
 .wrapper > .inner {
@@ -49,8 +60,9 @@ tr a:hover {
 }
 
 @media screen and (max-width: 980px) {
-    
-    .style3 a {
+	
+			
+	.style3 a {
 		height:60px;
 	}
 			
@@ -68,11 +80,20 @@ tr a:hover {
 		clear:both;
 	}
 
+	.banner .smaller p{
+		font-size:8px;
+	}
+	
+	.banner .smaller h3{
+		font-size:30px;
+	}
+
 }
 
 @media screen and (max-width: 736px) {
 
-    .style3 a {
+			
+	.style3 a {
 		font-size: 15px;
 		height:30px;
 	}
@@ -89,9 +110,25 @@ tr a:hover {
 		content:"";
 		display:block;
 		clear:both;
-    }
-
-    #footer p {
+	}
+	
+	.banner > article h3 {
+		font-size: 13px;
+	}
+			
+	.banner .smaller p{
+		font-size:6px;
+	}
+			
+	.banner .smaller h3{
+		font-size:24px;
+	}
+	
+	.banner .smallsize {
+		font-size:8px;
+	}
+	
+	#footer p {
 		font-size: 9px;
 	}
 			
