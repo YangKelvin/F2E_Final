@@ -75,10 +75,14 @@ a {
 	color: white;
 	width: 45%
 }
+section#three .box{
+	background-color: #f2f2f2;
+}
 .image.fit img {
 	/* width: 100%; */
-	width: 50%;
+	width: 55%;
 	margin: auto;
+	
 }
 @media screen and (min-width: 1281px) {
 
