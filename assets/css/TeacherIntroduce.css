@@ -52,12 +52,45 @@ body{
 	margin: auto;
 	padding-top: 30px;
 }
+
 .box .content {
 	padding: 2rem;
 }
+
 div.content p
 {
 	font-size: 14px !important;
 	color: #000;
 }
 
+@media screen and (min-width: 1680px) {
+	
+.box {
+	height: 690px;
+}
+
+}
+
+@media screen and (max-width: 1440px) {
+	
+.box {
+	height: 620px;
+}
+
+}
+
+@media screen and (max-width: 1280px) {
+	
+.box {
+	height: 605px;
+}
+
+}
+
+@media screen and (max-width: 980px) {
+	
+.box {
+	height: auto;
+}
+
+}
